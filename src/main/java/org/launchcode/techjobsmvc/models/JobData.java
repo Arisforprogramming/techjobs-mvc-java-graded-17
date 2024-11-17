@@ -52,6 +52,7 @@ public class JobData {
      * @param value Value of the field to search for.
      * @return List of all jobs matching the criteria.
      */
+    //method that retrieves job records based on a specific column (e.g., "title", "location")
     public static ArrayList<Job> findByColumnAndValue(String column, String value) {
 
         // load data, if not already loaded
